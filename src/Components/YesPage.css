@@ -1,0 +1,32 @@
+.yes-div {
+    background-image: url('./../../public/touti.png'); /* Les deux images superposées */
+    background-size: cover; /* Taille de l'image principale à couvrir et taille des lunettes à 20% */
+    background-position: center; /* Position de l'image principale et des lunettes */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Définit l'opacité initiale à 0 */
+    animation: spinAndGrow 4s linear forwards, fadeIn 4s ease forwards; /* Animation de rotation unique, d'apparition et d'affichage des lunettes */
+}
+
+@keyframes spinAndGrow {
+    0% {
+        transform: rotate(0deg) scale(0.4); /* Rotation de 0 degrés et taille à 50% */
+    }
+    100% {
+        transform: rotate(360deg) scale(1); /* Rotation complète et taille à 100% */
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Opacité initiale */
+    }
+    100% {
+        opacity: 1; /* Opacité finale */
+    }
+}
+
