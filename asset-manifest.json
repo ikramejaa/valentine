@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/valentine/static/css/main.a9f49076.css",
+    "main.js": "/valentine/static/js/main.272da2c6.js",
+    "static/media/touti.png": "/valentine/static/media/touti.547b83ca95fea431a80b.png",
+    "static/media/image1.jpg": "/valentine/static/media/image1.473f630384b546a0a75d.jpg",
+    "index.html": "/valentine/index.html",
+    "main.a9f49076.css.map": "/valentine/static/css/main.a9f49076.css.map",
+    "main.272da2c6.js.map": "/valentine/static/js/main.272da2c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f49076.css",
+    "static/js/main.272da2c6.js"
+  ]
+}
